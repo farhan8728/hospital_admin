@@ -67,14 +67,14 @@ a{
     margin-left: -4rem;
 }
 .input_search{
-    margin-left: 7rem;
+    margin-left: 5rem;
 }
 
 
 
 
 .hospital{
-    margin-left: 4rem;
+    
 }
 
 
@@ -130,9 +130,9 @@ a{
 }
 .fourimg{
     
-    display: block;
     margin-left: auto;
     margin-right: auto;
+    display: block;
     
 }
 
@@ -166,11 +166,12 @@ a{
     background-color: #5559CE;
     border-radius: 1rem;
     /* margin-top: 70px; */
+    width:210px;
     
 }
 .left_menu_bar_start {
-    margin-left: 58px;
-    width: 231px;
+    margin-left: px;
+    
 }
 .users{
     color: var(--white);
@@ -185,6 +186,26 @@ a{
     color: var(--white);
 }
 
+
+
+
+
+
+
+
+.dashboard_right{
+    background-color: #A062FF;
+    color: #fff;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+table a{
+    color: #000;
+}
+.table_right{
+    margin-left: 30px;
+}
 @media screen and (min-width:1200px){
     .header_mid{
         margin-left: -118px;
@@ -192,8 +213,26 @@ a{
     .header_main{
         margin-left: 245px;
     }
-    .left_menu_bar_start {
-        margin-left: 58px;
-        width: 305px;
+    
+}
+
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .left_menu_bar_start{
+        width: 200px;
+    }
+}
+
+
+@media screen and (min-width:1200px) and (max-width:1920px){
+    .table_right{
+        margin-left:-130px !important;
+    }
+}
+
+@media screen and (min-width:1921px) {
+    
+    .table_right{
+        margin-left:-130px !important;
     }
 }
