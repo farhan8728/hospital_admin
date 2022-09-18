@@ -1,0 +1,196 @@
+:root{
+    --black-color:#000;
+    --purpel-color:#A062FF;
+    --white:#fff;
+}
+
+
+body{
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.bi-search{
+    font-weight: 700 !important;
+    font-size: 1.3rem;
+}
+.header_main{
+    margin-left: 65px;
+}
+a{
+    text-decoration: none;
+}
+.search_icon{
+    color: #fff !important;
+}
+.input-group-text {
+    background-color: #5559CE;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    
+}
+.search_text{
+    font-size: 1.25rem !important;
+    border: 2px solid #5559CE;
+}
+.search_text:focus {
+    border: 2px solid #000;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(107, 105, 107, 0.5);
+}
+
+.chat_header_icon{
+    font-size: 1.65rem;
+}
+.admin_name{
+    font-size: 1.25rem;
+    margin-top: .313rem;
+}
+.admin_pro{
+    font-size: 1rem;
+    font-weight: 400;
+    float: right;
+}
+.chat_count{
+    font-weight: 700;
+    color: red;
+    /* background-color: 
+    #00DD3E;
+    height: 30px;
+    padding: 5px 5px;
+    border-radius: 10px; */
+}
+.notification_count{
+    font-weight: 700;
+    color: #5559CE;
+}
+.header_mid{
+    margin-left: -4rem;
+}
+.input_search{
+    margin-left: 7rem;
+}
+
+
+
+
+.hospital{
+    margin-left: 4rem;
+}
+
+
+
+
+
+.hos_name{
+    background-color: #5559CE;
+    text-align: center;
+    padding: 25px 15px;
+    border-radius: 10px;
+    color: #fff;
+    height: 132px;
+    font-size: 30px;
+}
+.appointment{
+    background-color: #3B5290;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    height: 130px;
+}
+.patient{
+    background-color: 
+    #7B57CE;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    height: 130px;
+}
+.operation{
+    background-color: 
+    #55CECA;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    height: 130px;
+}
+.earning{
+    background-color: #3B908D;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    height: 130px;
+}
+.appointment_para{
+    color: #fff;
+    font-weight: 700;
+}
+.fourimg{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.active{
+    color: var(--white);
+}
+.active1{
+    color: #000;
+}
+.active:focus{
+    color: var(--black-color);
+}
+.active:hover{
+    color: var(--black-color);
+}
+.left_menu_bar{
+    background-color: #5559CE;
+    border-radius: 1rem;
+    /* margin-top: 70px; */
+    
+}
+.left_menu_bar_start {
+    margin-left: 58px;
+    width: 231px;
+}
+.users{
+    color: var(--white);
+}
+.users:hover{
+    color: #fff;
+}
+.menu_user:hover .dropdown-menu{
+    display: block;
+}
+.menu_left_icon{
+    color: var(--white);
+}
+
+@media screen and (min-width:1200px){
+    .header_mid{
+        margin-left: -118px;
+    }
+    .header_main{
+        margin-left: 245px;
+    }
+    
+}
