@@ -192,5 +192,8 @@ a{
     .header_main{
         margin-left: 245px;
     }
-    
+    .left_menu_bar_start {
+        margin-left: 58px;
+        width: 305px;
+    }
 }
